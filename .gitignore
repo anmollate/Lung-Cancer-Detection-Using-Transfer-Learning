@@ -1,0 +1,13 @@
+dataset/
+notebooks/
+data/
+
+# Python cache
+__pycache__/
+app/__pycache__/
+*.py[cod]
+# Model artifacts not used by app/app.py runtime
+models/*_best.keras
+models/*_history.pkl
+models/hybrid_rf.pkl
+models/hybrid_svm.pkl

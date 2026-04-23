@@ -1,0 +1,13 @@
+# TensorFlow does not currently publish wheels for Python 3.14 on Windows.
+# Use Python 3.10–3.12 (recommended: 3.11) for this project.
+tensorflow>=2.16,<2.18; python_version < "3.13"
+numpy
+matplotlib
+seaborn
+scikit-learn
+Pillow
+pandas
+streamlit
+opencv-python-headless
+folium
+streamlit-folium
